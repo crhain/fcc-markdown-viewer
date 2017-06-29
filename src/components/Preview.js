@@ -11,8 +11,7 @@ export default class Preview extends Component{
         return (
             <div className="preview">
                 <h3>Preview</h3>
-                <div id="preview-window">
-                    {this.formatMarkdownText(this.props.text)}
+                <div id="preview-window" dangerouslySetInnerHTML={{__html: this.formatMarkdownText(this.props.text)}}>                    
                 </div>
             </div>
         );
