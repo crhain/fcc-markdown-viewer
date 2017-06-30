@@ -17,11 +17,14 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
+      <div className="App container-fluid">
         <div className="App-header">          
           <h2>Markdown Previewer</h2>
-          <Input text={this.state.text} handleChange={ this.handleInputChange }/>
-          <Preview text={this.state.text}/>
+          <div className="row">
+            <Input text={this.state.text} handleChange={ this.handleInputChange }/>
+            <Preview text={this.state.text}/>
+          </div>
+          
         </div>        
       </div>
     );
