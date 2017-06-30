@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "gh-pages": "^1.0.0",
     "marked": "^0.3.6",
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
@@ -11,9 +12,11 @@
     "react-scripts": "1.0.10"
   },
   "scripts": {
+    "deploy": "npm run build&&gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "homepage": "http://crhain.github.io/fcc-markdown-viewer/"
 }
