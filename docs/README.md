@@ -1,5 +1,11 @@
+FREECODECAMP MARKDOWN VIEWER
+==============================================
+
+This project was created for freeCodeCamp.  A working demo can be found at [http://crhwebdev.github.io/fcc-markdown-viewer](http://crhwebdev.github.io/fcc-markdown-viewer)
+
+
 Objective
-================================================
+----------------------------------------------
 
 Build a CodePen.io app that is functionally similar to this: https://codepen.io/FreeCodeCamp/full/JXrLLE/.
 
