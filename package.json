@@ -2,6 +2,7 @@
   "name": "fcc-markdown-viewer",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://crhwebdev.github.io/fcc-markdown-viewer/",
   "dependencies": {
     "gh-pages": "^1.0.0",
     "marked": "^0.3.6",
@@ -20,6 +21,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  },
-  "homepage": "http://crhain.github.io/fcc-markdown-viewer/"
+  }
+  
 }
