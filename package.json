@@ -5,6 +5,7 @@
   "homepage": "http://crhwebdev.github.io/fcc-markdown-viewer/",
   "dependencies": {
     "gh-pages": "^1.0.0",
+    "hoek": "^5.0.3",
     "marked": "^0.3.19",
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
